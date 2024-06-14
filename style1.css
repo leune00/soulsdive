@@ -53,6 +53,7 @@ html{
     position:absolute;
     bottom: 70%;
     left: 10%;
+    color : #fff;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif;
 }
