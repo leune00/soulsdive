@@ -162,7 +162,7 @@ html {
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
-    font-family: 'Press Start 2P', sans-serif; /* Appliquer la police pixelisée */
+    font-family: 'VT323', sans-serif; /* Appliquer la police pixelisée */
 }
 
 .content p {
