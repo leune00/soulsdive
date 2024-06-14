@@ -1,6 +1,9 @@
 /* Importation de la police Google Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
+/* Importation de la police pixelisée */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /* Réinitialisation des styles */
 * {
     margin: 0;
@@ -159,17 +162,7 @@ html {
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
-    font-family: 'Birch Leaf', sans-serif;
-}
-
-.content ha {
-    font-size: 24px;
-    position: absolute;
-    bottom: -2%;
-    left: 35%;
-    color: #ffffff;
-    text-shadow: 0 0 20px #ff6161;
-    font-family: 'Birch Leaf', sans-serif;
+    font-family: 'Press Start 2P', sans-serif; /* Appliquer la police pixelisée */
 }
 
 .content p {
@@ -304,46 +297,6 @@ html {
     justify-content: center;
     bottom: 5%;
     right: -5%;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar a {
-        width: 100%;
-        text-align: center;
-    }
-
-    .content {
-        padding: 10px;
-    }
-
-    .specific-image, .specific-image1, .specific-image2, .specific-imageg, .specific-imagec, .specific-imagel, .specific-imagee, .specific-imagen, .specific-imagea, .specific-imagecape, .specific-imageperso, .specific-imagebloc, .specific-imagecoffre, .specific-imaget, .specific-imagetf, .specific-imageto, .specific-imagelogo {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 10px auto;
-    }
-
-    .scrollable {
-        max-height: none;
-        overflow: visible;
-    }
-
-    .btn, .btn2 {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin: 10px 0;
-    }
 }
 
 #demo1 {
