@@ -306,6 +306,46 @@ html {
     right: -5%;
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    .specific-image, .specific-image1, .specific-image2, .specific-imageg, .specific-imagec, .specific-imagel, .specific-imagee, .specific-imagen, .specific-imagea, .specific-imagecape, .specific-imageperso, .specific-imagebloc, .specific-imagecoffre, .specific-imaget, .specific-imagetf, .specific-imageto, .specific-imagelogo {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .scrollable {
+        max-height: none;
+        overflow: visible;
+    }
+
+    .btn, .btn2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
 #demo1 {
     position: absolute;
     bottom: -30%;
