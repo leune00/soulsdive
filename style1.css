@@ -152,7 +152,7 @@ html{
 .content h3 {
     font-size: 80px;
     position:absolute;
-    bottom: 55%;
+    bottom: 90%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif; /* Appliquer la police pixelisée */
