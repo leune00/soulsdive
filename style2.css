@@ -16,17 +16,18 @@ html{
 
 
 .header {
-    position:fixed;
-    top: -1%;
-    left : -5%;
-    width: 100%;
-    padding: 1px 5%;
-    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur de la page */
+    padding: 1rem 5%; /* Ajustez selon votre préférence */
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent noir pour l'en-tête */
 }
+
 
 .logo{
     font-size : 30px;
