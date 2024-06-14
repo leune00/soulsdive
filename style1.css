@@ -108,7 +108,7 @@ html{
     bottom: 80%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    font-family: 'Birch Leaf', sans-serif;
+    font-family: 'VT323', sans-serif; /* Appliquer la police pixelisée */
     
 }
 
