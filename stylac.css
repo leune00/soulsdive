@@ -298,17 +298,20 @@ html {
     bottom: 5%;
     right: -5%;
 }
-
 #demo1 {
     position: absolute;
-    bottom: -30%;
-    left: 45%;
-    transform: translate(-50%, -50)
+    bottom: 30%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 50%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    transform: translate(-50%, -50); /* Ajuste la position centrale */
+    font-size: 40px; /* Taille de la police */
+    color: #fff; /* Couleur du texte */
 }
 
 #demo2 {
     position: absolute;
-    bottom: -100%;
-    left: 35%; 
-    transform: translate(-50%, -50%);
+    bottom: 10%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 50%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste la position centrale */
+    font-size: 24px; /* Taille de la police */
+    color: #fff; /* Couleur du texte */
 }
