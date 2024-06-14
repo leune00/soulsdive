@@ -300,8 +300,8 @@ html {
 }
 #demo1 {
     position: absolute;
-    bottom: 30%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 50%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    bottom: -30%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 45%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
     transform: translate(-50%, -50); /* Ajuste la position centrale */
     font-size: 40px; /* Taille de la police */
     color: #fff; /* Couleur du texte */
@@ -309,8 +309,8 @@ html {
 
 #demo2 {
     position: absolute;
-    bottom: 10%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 50%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    bottom: -100%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 35%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
     transform: translate(-50%, -50%); /* Ajuste la position centrale */
     font-size: 24px; /* Taille de la police */
     color: #fff; /* Couleur du texte */
