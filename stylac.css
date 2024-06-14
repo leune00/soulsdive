@@ -1,0 +1,321 @@
+/* Importation de la police Google Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%; /* Remise à zéro de la taille de la police */
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* Styles pour l'en-tête */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur de la page */
+    padding: 1rem 5%; /* Ajustez selon votre préférence */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent noir pour l'en-tête */
+}
+
+.logo {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logo:hover {
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Styles pour les réseaux sociaux */
+.social-media {
+    margin: 0 auto 0 50px;
+    position: relative; /* Assure que les éléments positionnés à l'intérieur sont positionnés relativement */
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 128, 0, 0.5); /* Couleur verte semi-transparente */
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .5s;
+    position: relative; /* Permet de positionner le pseudo-élément */
+}
+
+.social-media a::after {
+    content: ''; /* Contenu vide pour le pseudo-élément */
+    position: absolute; /* Position absolue par rapport au parent */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; /* Couleur de fond transparente */
+    z-index: 1; /* Place au-dessus de l'icône */
+    border-radius: 6px; /* Même bord arrondi que l'icône */
+}
+
+.social-media a i {
+    font-size: 20px;
+    color: #fff;
+    transition: .5s;
+    position: relative; /* Assure que l'icône est positionnée par rapport au parent */
+    z-index: 2; /* Place au-dessus du pseudo-élément */
+}
+
+.social-media a:hover::after {
+    background: rgba(0, 128, 0, 0.7); /* Superposition plus foncée lors du survol */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%; /* Marge à droite pour les éléments de la barre de navigation */
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles pour la section de la bannière */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.slider .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide img {
+    position: fixed;
+    width: 135%;
+    height: 135%;
+    opacity: 79%;
+    object-fit: cover;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.slide.active img {
+    opacity: 1;
+}
+
+.slide .content {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    transition: 0s;
+    align-items: center;
+}
+
+.slide.active .content {
+    position: absolute;
+    bottom: 30%;
+    left: 12%;
+    color: #fff;
+    transform: translateX(0);
+    z-index: 1;
+    transition: .5s ease;
+    align-items: center;
+}
+
+.content h3 {
+    font-size: 120px;
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
+    color: #460000;
+    text-shadow: 0 0 20px #ff6161;
+    font-family: 'Birch Leaf', sans-serif;
+}
+
+.content ha {
+    font-size: 24px;
+    position: absolute;
+    bottom: -2%;
+    left: 35%;
+    color: #ffffff;
+    text-shadow: 0 0 20px #ff6161;
+    font-family: 'Birch Leaf', sans-serif;
+}
+
+.content p {
+    font-size: 20px;
+    margin: 260px 0px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .btn {
+    position: absolute;
+    right: 10%;
+    bottom: 37%;
+    display: inline-block;
+    padding: 5px 28px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #fff;
+    font-size: 20px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.content .btn:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.slide .right-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0s;
+}
+
+.slide.active .right-info {
+    transform: translateX(0);
+    z-index: 1;
+    transition: .5s ease;
+}
+
+.right-info h1 {
+    font-size: 180px;
+    color: #c92323;
+    margin: 30px;
+    text-shadow: 
+        0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.slide:nth-child(1) .right-info h1, 
+.slide:nth-child(4) .right-info h1 {
+    margin-right: -10px;
+}
+
+.right-info h3 {
+    position: absolute;
+    font-size: 20px;
+    color: #f96b6b;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transform: translateY(350%);
+    margin-left: 13px;
+    margin: 150px;
+}
+
+.content .specific-image {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    justify-content: center;
+    bottom: -19%;
+}
+
+.content .specific-image1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    justify-content: center;
+    bottom: 35%;
+    right: 59%;
+}
+
+.content .specific-image2 {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    justify-content: center;
+    bottom: 50%;
+    right: -60%;
+}
+
+.content .specific-image3 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    justify-content: center;
+    bottom: -48%;
+    right: 40%;
+}
+
+.content .specific-image4 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    justify-content: center;
+    bottom: -78%;
+    right: -80%;
+}
+
+.content .specific-image5 {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    justify-content: center;
+    bottom: 5%;
+    right: -5%;
+}
+
+#demo1 {
+    position: absolute;
+    bottom: -30%;
+    left: 45%;
+    transform: translate(-50%, -50)
+}
+
+#demo2 {
+    position: absolute;
+    bottom: -100%;
+    left: 35%; 
+    transform: translate(-50%, -50%);
+}
