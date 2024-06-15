@@ -367,16 +367,16 @@ html{
 
 
 .content .specific-imagetu{
-    width: 500px; 
-    height: 500px;
+    width: 250px; 
+    height: 250px;
     position: absolute;
     justify-content: center;
     bottom: -90%;
 }
 
 .content .specific-imagecara{
-    width: 750px; 
-    height: 750px;
+    width: 250px; 
+    height: 250px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
@@ -384,8 +384,8 @@ html{
 }
 
 .content .specific-imagesor{
-    width: 750px; 
-    height: 750px;
+    width: 350px; 
+    height: 350px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
@@ -393,8 +393,8 @@ html{
 }
 
 .content .specific-imagesli{
-    width: 750px; 
-    height: 750px;
+    width: 350px; 
+    height: 350px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
@@ -402,8 +402,8 @@ html{
 }
 
 .content .specific-imagesbush{
-    width: 750px; 
-    height: 750px;
+    width: 350px; 
+    height: 350px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
