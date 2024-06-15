@@ -23,17 +23,17 @@ html {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%; /* Occupe toute la largeur de la page */
-    padding: 10px 50px; /* Ajustez selon votre préférence */
+    width: 100%;
+    padding: 1rem 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent noir pour l'en-tête */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 3rem;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
@@ -47,46 +47,46 @@ html {
 
 /* Styles pour les réseaux sociaux */
 .social-media {
-    margin: 0 auto 0 50px;
-    position: relative; /* Assure que les éléments positionnés à l'intérieur sont positionnés relativement */
+    margin: 0 auto 0 5rem;
+    position: relative;
 }
 
 .social-media a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background: rgba(0, 128, 0, 0.5); /* Couleur verte semi-transparente */
+    width: 4rem;
+    height: 4rem;
+    background: rgba(0, 128, 0, 0.5);
     border-radius: 6px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 1rem;
     transition: .5s;
-    position: relative; /* Permet de positionner le pseudo-élément */
+    position: relative;
 }
 
 .social-media a::after {
-    content: ''; /* Contenu vide pour le pseudo-élément */
-    position: absolute; /* Position absolue par rapport au parent */
+    content: '';
+    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: transparent; /* Couleur de fond transparente */
-    z-index: 1; /* Place au-dessus de l'icône */
-    border-radius: 6px; /* Même bord arrondi que l'icône */
+    background: transparent;
+    z-index: 1;
+    border-radius: 6px;
 }
 
 .social-media a i {
-    font-size: 20px;
+    font-size: 2rem;
     color: #fff;
     transition: .5s;
-    position: relative; /* Assure que l'icône est positionnée par rapport au parent */
-    z-index: 2; /* Place au-dessus du pseudo-élément */
+    position: relative;
+    z-index: 2;
 }
 
 .social-media a:hover::after {
-    background: rgba(0, 128, 0, 0.7); /* Superposition plus foncée lors du survol */
+    background: rgba(0, 128, 0, 0.7);
 }
 
 /* Styles pour la barre de navigation */
@@ -94,16 +94,16 @@ html {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 50px; /* Marge à droite pour les éléments de la barre de navigation */
+    margin-right: 5rem;
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 3rem;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
 }
 
 /* Styles pour la section de la bannière */
@@ -124,7 +124,7 @@ html {
     position: fixed;
     width: 135%;
     height: 135%;
-    opacity: 79%;
+    opacity: 0.79;
     object-fit: cover;
     pointer-events: none;
     opacity: 0;
@@ -136,8 +136,8 @@ html {
 
 .slide .content {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 50%;
     height: 100%;
     transition: 0s;
@@ -146,8 +146,8 @@ html {
 
 .slide.active .content {
     position: absolute;
-    bottom: 300px;
-    left: 120px;
+    bottom: 30vh;
+    left: 12vw;
     color: #fff;
     transform: translateX(0);
     z-index: 1;
@@ -156,33 +156,33 @@ html {
 }
 
 .content h3 {
-    font-size: 160px;
+    font-size: 16vw;
     position: absolute;
-    bottom: 550px;
-    left: 50px;
+    bottom: 55vh;
+    left: 5vw;
     color: #460000;
-    text-shadow: 0 0 20px #ff6161;
-    font-family: 'VT323', sans-serif; /* Appliquer la police pixelisée */
+    text-shadow: 0 0 2rem #ff6161;
+    font-family: 'VT323', sans-serif;
 }
 
 .content p {
-    font-size: 20px;
-    margin: 260px 0px 25px;
+    font-size: 2vw;
+    margin: 26vh 0 2.5vh;
     display: flex;
     justify-content: center;
 }
 
 .content .btn {
     position: absolute;
-    right: 100px;
-    bottom: 370px;
+    right: 10vw;
+    bottom: 37vh;
     display: inline-block;
-    padding: 5px 28px;
+    padding: 0.5rem 2.8rem;
     background: #fff;
-    border: 2px solid #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #fff;
-    font-size: 20px;
+    border: 0.2rem solid #fff;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 1rem #fff;
+    font-size: 2rem;
     color: #444;
     text-decoration: none;
     font-weight: 600;
@@ -213,105 +213,104 @@ html {
 }
 
 .right-info h1 {
-    font-size: 180px;
+    font-size: 18vw;
     color: #c92323;
-    margin: 30px;
+    margin: 3vh;
     text-shadow: 
-        0 1px 0 #ccc,
-        0 2px 0 #c9c9c9,
-        0 3px 0 #bbb,
-        0 4px 0 #b9b9b9,
-        0 5px 0 #aaa,
-        0 6px 1px rgba(0, 0, 0, .1),
-        0 0 5px rgba(0, 0, 0, .1),
-        0 1px 3px rgba(0, 0, 0, .3),
-        0 3px 5px rgba(0, 0, 0, .2),
-        0 5px 10px rgba(0, 0, 0, .25),
-        0 10px 10px rgba(0, 0, 0, .2),
-        0 20px 20px rgba(0, 0, 0, .15);
+        0 0.1rem 0 #ccc,
+        0 0.2rem 0 #c9c9c9,
+        0 0.3rem 0 #bbb,
+        0 0.4rem 0 #b9b9b9,
+        0 0.5rem 0 #aaa,
+        0 0.6rem 0.1rem rgba(0, 0, 0, .1),
+        0 0 0.5rem rgba(0, 0, 0, .1),
+        0 0.1rem 0.3rem rgba(0, 0, 0, .3),
+        0 0.3rem 0.5rem rgba(0, 0, 0, .2),
+        0 0.5rem 1rem rgba(0, 0, 0, .25),
+        0 1rem 1rem rgba(0, 0, 0, .2),
+        0 2rem 2rem rgba(0, 0, 0, .15);
 }
 
 .slide:nth-child(1) .right-info h1, 
 .slide:nth-child(4) .right-info h1 {
-    margin-right: -10px;
+    margin-right: -1vw;
 }
 
 .right-info h3 {
     position: absolute;
-    font-size: 20px;
+    font-size: 2vw;
     color: #f96b6b;
-    text-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    transform: translateY(350%);
-    margin-left: 13px;
-    margin: 150px;
+    text-shadow: 0 0 1rem rgba(0, 0, 0, .5);
+    transform: translateY(35vh);
+    margin-left: 1.3vw;
+    margin: 15vh;
 }
 
 .content .specific-image {
-    width: 80px;
-    height: 80px;
+    width: 8vw;
+    height: 8vw;
     position: absolute;
     justify-content: center;
-    bottom: -190px;
+    bottom: -19vh;
 }
 
 .content .specific-image1 {
-    width: 80px;
-    height: 80px;
+    width: 8vw;
+    height: 8vw;
     position: absolute;
     justify-content: center;
-    bottom: 350px;
-    right: 590px;
+    bottom: 35vh;
+    right: 59vw;
 }
 
 .content .specific-image2 {
-    width: 350px;
-    height: 350px;
+    width: 35vw;
+    height: 35vw;
     position: absolute;
     justify-content: center;
-    bottom: 500px;
-    right: -600px;
+    bottom: 50vh;
+    right: -60vw;
 }
 
 .content .specific-image3 {
-    width: 450px;
-    height: 450px;
+    width: 45vw;
+    height: 45vw;
     position: absolute;
     justify-content: center;
-    bottom: -480px;
-    right: 400px;
+    bottom: -48vh;
+    right: 40vw;
 }
 
 .content .specific-image4 {
-    width: 500px;
-    height: 500px;
+    width: 50vw;
+    height: 50vw;
     position: absolute;
     justify-content: center;
-    bottom: -780px;
-    right: -800px;
+    bottom: -78vh;
+    right: -80vw;
 }
 
 .content .specific-image5 {
-    width: 250px;
-    height: 150px;
+    width: 25vw;
+    height: 15vw;
     position: absolute;
     justify-content: center;
-    bottom: 50px;
-    right: -50px;
+    bottom: 5vh;
+    right: -5vw;
 }
+
 #demo1 {
     position: absolute;
-    bottom: -300px; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 450px; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
-    transform: translate(-50%, -50); /* Ajuste la position centrale */
-    font-size: 40px; /* Taille de la police */
-    color: #fff; /* Couleur du texte */
+    bottom: -30vh;
+    left: 45vw;
+    transform: translate(-50%, -50);
+    font-size: 4vw;
+    color: #fff;
 }
 
 #demo2 {
     position: absolute;
-    bottom: -1000px; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 350px; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
-    transform: translate(-50%, -50%); /* Ajuste la position centrale */
-    font-size: 24px; /* Taille de la police */
-    color: #fff; /* Couleur du texte */
-}
+    bottom: -100vh;
+    left: 35vw;
+    transform: translate(-50%, -50%);
+    font-size: 2.
