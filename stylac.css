@@ -153,7 +153,7 @@ html {
 }
 
 .content h3 {
-    font-size: 6vw;
+    font-size: 2vw;
     color: #460000;
     text-shadow: 0 0 2rem #ff6161;
     font-family: 'VT323', sans-serif;
@@ -162,6 +162,7 @@ html {
 
 .content p {
     font-size: 2vw;
+    bottom : 6rem;
     margin-bottom: 2rem;
 }
 
