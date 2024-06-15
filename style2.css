@@ -364,3 +364,14 @@ html{
     right: 90%;
 }
 
+
+.content .specific-imagetu{
+    width: 250px; 
+    height: 250px;
+    position: absolute;
+    justify-content: center;
+    bottom: 90%;
+    right: 90%;
+}
+
+
