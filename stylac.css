@@ -1,5 +1,6 @@
 /* Importation de la police Google Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* Réinitialisation des styles */
 * {
@@ -155,11 +156,11 @@ html {
 .content h3 {
     font-size: 120px;
     position: absolute;
-    bottom: 60%;
+    bottom: 50%;
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
-    font-family: 'Birch Leaf', sans-serif;
+    font-family: 'VT323', sans-serif;
 }
 
 .content ha {
@@ -173,7 +174,7 @@ html {
 }
 
 .content p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 260px 0 15px;
     display: flex;
     justify-content: center;
@@ -290,4 +291,32 @@ html {
 
 .content .specific-image4 {
     width: 500px;
-    height
+    height: 500px;
+    position: absolute;
+    justify-content: center;
+    bottom: -78%;
+    right: -80%;
+}
+
+.content .specific-image5 {
+    width: 25vw;
+    height: 15vw;
+    position: absolute;
+    justify-content: center;
+    bottom: 5vh;
+    right: -5vw;
+}
+
+#demo1 {
+    position: absolute;
+    bottom: -100%;
+    left: 75%; 
+    transform: translate(-50%, -50%);
+}
+
+#demo2 {
+    position: absolute;
+    bottom: -180%;
+    left: 75%; 
+    transform: translate(-50%, -50%);
+}
