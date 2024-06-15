@@ -24,7 +24,7 @@ html {
     top: 0;
     left: 0;
     width: 100%; /* Occupe toute la largeur de la page */
-    padding: 1rem 5%; /* Ajustez selon votre préférence */
+    padding: 10px 50px; /* Ajustez selon votre préférence */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,7 +94,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 5%; /* Marge à droite pour les éléments de la barre de navigation */
+    margin-right: 50px; /* Marge à droite pour les éléments de la barre de navigation */
 }
 
 .navbar a {
@@ -146,8 +146,8 @@ html {
 
 .slide.active .content {
     position: absolute;
-    bottom: 30%;
-    left: 12%;
+    bottom: 300px;
+    left: 120px;
     color: #fff;
     transform: translateX(0);
     z-index: 1;
@@ -158,8 +158,8 @@ html {
 .content h3 {
     font-size: 160px;
     position: absolute;
-    bottom: 55%;
-    left: 5%;
+    bottom: 550px;
+    left: 50px;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
     font-family: 'VT323', sans-serif; /* Appliquer la police pixelisée */
@@ -174,8 +174,8 @@ html {
 
 .content .btn {
     position: absolute;
-    right: 10%;
-    bottom: 37%;
+    right: 100px;
+    bottom: 370px;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -251,7 +251,7 @@ html {
     height: 80px;
     position: absolute;
     justify-content: center;
-    bottom: -19%;
+    bottom: -190px;
 }
 
 .content .specific-image1 {
@@ -259,8 +259,8 @@ html {
     height: 80px;
     position: absolute;
     justify-content: center;
-    bottom: 35%;
-    right: 59%;
+    bottom: 350px;
+    right: 590px;
 }
 
 .content .specific-image2 {
@@ -268,8 +268,8 @@ html {
     height: 350px;
     position: absolute;
     justify-content: center;
-    bottom: 50%;
-    right: -60%;
+    bottom: 500px;
+    right: -600px;
 }
 
 .content .specific-image3 {
@@ -277,8 +277,8 @@ html {
     height: 450px;
     position: absolute;
     justify-content: center;
-    bottom: -48%;
-    right: 40%;
+    bottom: -480px;
+    right: 400px;
 }
 
 .content .specific-image4 {
@@ -286,8 +286,8 @@ html {
     height: 500px;
     position: absolute;
     justify-content: center;
-    bottom: -78%;
-    right: -80%;
+    bottom: -780px;
+    right: -800px;
 }
 
 .content .specific-image5 {
@@ -295,13 +295,13 @@ html {
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 5%;
-    right: -5%;
+    bottom: 50px;
+    right: -50px;
 }
 #demo1 {
     position: absolute;
-    bottom: -30%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 45%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    bottom: -300px; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 450px; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
     transform: translate(-50%, -50); /* Ajuste la position centrale */
     font-size: 40px; /* Taille de la police */
     color: #fff; /* Couleur du texte */
@@ -309,8 +309,8 @@ html {
 
 #demo2 {
     position: absolute;
-    bottom: -100%; /* Ajustez la valeur en pourcentage pour positionner verticalement */
-    left: 35%; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
+    bottom: -1000px; /* Ajustez la valeur en pourcentage pour positionner verticalement */
+    left: 350px; /* Ajustez la valeur en pourcentage pour positionner horizontalement */
     transform: translate(-50%, -50%); /* Ajuste la position centrale */
     font-size: 24px; /* Taille de la police */
     color: #fff; /* Couleur du texte */
