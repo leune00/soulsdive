@@ -39,8 +39,6 @@ html {
     font-weight: 700;
     cursor: pointer;
     position: absolute;
-    right: 2rem;
-    top: 1rem;
 }
 
 .logo:hover {
@@ -54,7 +52,7 @@ html {
     align-items: center;
     position: absolute;
     top: 1rem;
-    left: 1rem;
+    left: 2rem;
 }
 
 .social-media a {
@@ -185,7 +183,7 @@ html {
     text-decoration: none;
     font-weight: 600;
     transition: .5s;
-    margin-top: 1rem; /* Add margin to space out from other text */
+    margin-top: 3rem; /* Add margin to space out from other text */
 }
 
 .content .btn:hover {
@@ -232,6 +230,7 @@ html {
     width: 8vw;
     height: 8vw;
     bottom: -19vh;
+    justify-content: center;
 }
 
 .content .specific-image1 {
@@ -276,13 +275,13 @@ html {
 }
 
 #demo1 {
-    bottom: -5vh; /* Place demo 1 at the bottom */
+    bottom: -30vh; /* Place demo 1 at the bottom */
     left: 45vw;
     transform: translate(-50%, -50%);
 }
 
 #demo2 {
-    bottom: -5vh; /* Place demo 2 at the bottom */
-    left: 55vw;
+    bottom: -100vh; /* Place demo 2 at the bottom */
+    left: 35vw;
     transform: translate(-50%, -50%);
 }
