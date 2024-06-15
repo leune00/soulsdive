@@ -268,13 +268,13 @@ html {
 }
 
 #demo1 {
-    bottom: -30vh;
+    bottom: 30vh;
     left: 45vw;
     transform: translate(-50%, -50%);
 }
 
 #demo2 {
-    bottom: -100vh;
+    bottom: 100vh;
     left: 35vw;
     transform: translate(-50%, -50%);
 }
