@@ -152,7 +152,7 @@ html{
 .content h3 {
     font-size: 60px;
     position:absolute;
-    bottom: 89%;
+    bottom: 86%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif;
@@ -367,12 +367,11 @@ html{
 
 
 .content .specific-imagetu{
-    width: 750px; 
-    height: 750px;
+    width: 500px; 
+    height: 500px;
     position: absolute;
     justify-content: center;
-    bottom: -60%;
-    right: 90%;
+    bottom: -90%;
 }
 
 .content .specific-imagecara{
