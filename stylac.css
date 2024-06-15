@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Importation de la police pixelisée */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* Réinitialisation des styles */
 * {
@@ -162,7 +162,7 @@ html {
     font-size: 8vw; /* Increase font size */
     color: #460000;
     text-shadow: 0 0 2rem #ff6161;
-    font-family: 'Press Start 2P', monospace;
+    font-family: 'VT323', monospace;
     margin-bottom: 2rem;
 }
 
@@ -271,18 +271,18 @@ html {
 
 #demo1, #demo2 {
     position: absolute;
-    font-size: 2vw; /* Adjust font size for demos */
+    font-size: 1vw; /* Adjust font size for demos */
     color: #fff;
 }
 
 #demo1 {
-    bottom: 5vh; /* Place demo 1 at the bottom */
+    bottom: -5vh; /* Place demo 1 at the bottom */
     left: 45vw;
     transform: translate(-50%, -50%);
 }
 
 #demo2 {
-    bottom: 5vh; /* Place demo 2 at the bottom */
+    bottom: -5vh; /* Place demo 2 at the bottom */
     left: 55vw;
     transform: translate(-50%, -50%);
 }
