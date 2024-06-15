@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
 /* Importation de la police pixelisée */
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 /* Réinitialisation des styles */
 * {
@@ -38,6 +38,9 @@ html {
     text-decoration: none;
     font-weight: 700;
     cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
 }
 
 .logo:hover {
@@ -49,6 +52,9 @@ html {
 .social-media {
     display: flex;
     align-items: center;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
 
 .social-media a {
@@ -153,17 +159,18 @@ html {
 }
 
 .content h3 {
-    font-size: 4vw;
+    font-size: 8vw; /* Increase font size */
     color: #460000;
     text-shadow: 0 0 2rem #ff6161;
-    font-family: 'VT323', sans-serif;
+    font-family: 'Press Start 2P', monospace;
     margin-bottom: 2rem;
 }
 
 .content p {
     font-size: 2vw;
-    bottom : 6rem;
+    bottom: 6rem;
     margin-bottom: 2rem;
+    color: #fff; /* Change text color to white */
 }
 
 .content .btn {
@@ -178,6 +185,7 @@ html {
     text-decoration: none;
     font-weight: 600;
     transition: .5s;
+    margin-top: 1rem; /* Add margin to space out from other text */
 }
 
 .content .btn:hover {
@@ -263,18 +271,18 @@ html {
 
 #demo1, #demo2 {
     position: absolute;
-    font-size: 1vw;
+    font-size: 2vw; /* Adjust font size for demos */
     color: #fff;
 }
 
 #demo1 {
-    bottom: 30vh;
+    bottom: 5vh; /* Place demo 1 at the bottom */
     left: 45vw;
     transform: translate(-50%, -50%);
 }
 
 #demo2 {
-    bottom: 100vh;
-    left: 35vw;
+    bottom: 5vh; /* Place demo 2 at the bottom */
+    left: 55vw;
     transform: translate(-50%, -50%);
 }
