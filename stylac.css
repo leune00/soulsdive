@@ -18,10 +18,10 @@ html {
 /* Styles pour l'en-tête */
 .header {
     position: fixed;
-    top: -1%;
-    left: -5%;
-    width: 100%;
-    padding: 1px 5%;
+    top: 0;
+    left: 0;
+    width: 100%; /* Occupe toute la largeur de la page */
+    padding: 1rem 5%; /* Ajustez selon votre préférence */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +87,13 @@ html {
 }
 
 /* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%; /* Marge à droite pour les éléments de la barre de navigation */
+}
+
 .navbar a {
     font-size: 18px;
     color: #fff;
@@ -98,7 +105,7 @@ html {
 
 /* Styles pour la section de la bannière */
 .banner {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
@@ -283,15 +290,4 @@ html {
 
 .content .specific-image4 {
     width: 500px;
-    height: 500px;
-    position: absolute;
-    justify-content: center;
-    bottom: -78%;
-    right: -80%;
-}
-
-#demo1 {
-    position: absolute;
-    bottom: -100%;
-    left: 75%;
-    transform: translate(-50%, -50
+    height
