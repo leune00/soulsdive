@@ -1,40 +1,40 @@
+/* Importation de la police Google Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
+/* Réinitialisation des styles */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
 }
 
-html{
-    font-size: 62.5%;
-    overflow-x: hidden;
+html {
+    font-size: 62.5%; /* Remise à zéro de la taille de la police */
+    overflow-x: hidden; /* Empêche le défilement horizontal */
 }
 
-
+/* Styles pour l'en-tête */
 .header {
-    position:absolute;
+    position: fixed;
     top: -1%;
-    left : -5%;
+    left: -5%;
     width: 100%;
     padding: 1px 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8); /* Fond semi-transparent noir pour l'en-tête */
 }
 
-
-.logo{
-    font-size : 30px;
+.logo {
+    font-size: 30px;
     color: #fff;
     text-decoration: none;
     font-weight: 700;
     cursor: pointer;
-    position: absolute;
 }
 
 .logo:hover {
@@ -42,12 +42,10 @@ html{
     transition: background-color 0.3s, color 0.3s;
 }
 
-
-
+/* Styles pour les réseaux sociaux */
 .social-media {
     margin: 0 auto 0 50px;
-    position: absolute;
-
+    position: relative; /* Assure que les éléments positionnés à l'intérieur sont positionnés relativement */
 }
 
 .social-media a {
@@ -56,55 +54,49 @@ html{
     align-items: center;
     width: 40px;
     height: 40px;
-    background: rgba(0, 128, 0, 0.5);
-    border: 2px transparent;
+    background: rgba(0, 128, 0, 0.5); /* Couleur verte semi-transparente */
     border-radius: 6px;
     text-decoration: none;
     margin-right: 10px;
     transition: .5s;
-    position: absolute;
+    position: relative; /* Permet de positionner le pseudo-élément */
 }
 
 .social-media a::after {
-    content: '';
-    position: absolute;
+    content: ''; /* Contenu vide pour le pseudo-élément */
+    position: absolute; /* Position absolue par rapport au parent */
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: transparent;
-    z-index: 1;
-    border-radius: 6px;
+    background: transparent; /* Couleur de fond transparente */
+    z-index: 1; /* Place au-dessus de l'icône */
+    border-radius: 6px; /* Même bord arrondi que l'icône */
 }
-
-.social-media a:hover::after {
-    background: rgba(0, 128, 0, 0.7);
-}
-
-
 
 .social-media a i {
     font-size: 20px;
     color: #fff;
     transition: .5s;
-    position: absolute;
+    position: relative; /* Assure que l'icône est positionnée par rapport au parent */
+    z-index: 2; /* Place au-dessus du pseudo-élément */
 }
 
-.social-media a:hover i {
-    color: #0f036b;
+.social-media a:hover::after {
+    background: rgba(0, 128, 0, 0.7); /* Superposition plus foncée lors du survol */
 }
 
+/* Styles pour la barre de navigation */
 .navbar a {
     font-size: 18px;
     color: #fff;
-    text-decoration:none;
+    text-decoration: none;
     font-weight: 500;
     margin-left: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Styles pour la section de la bannière */
 .banner {
     position: absolute;
     width: 100%;
@@ -119,14 +111,13 @@ html{
 }
 
 .slide img {
-    position:absolute;
+    position: fixed;
     width: 135%;
     height: 135%;
-    opacity: 79%;
+    opacity: 0.79;
     object-fit: cover;
     pointer-events: none;
     opacity: 0;
-
 }
 
 .slide.active img {
@@ -143,12 +134,11 @@ html{
     align-items: center;
 }
 
-
 .slide.active .content {
-    position:absolute;
+    position: absolute;
     bottom: 30%;
     left: 12%;
-    color: #fff ;
+    color: #fff;
     transform: translateX(0);
     z-index: 1;
     transition: .5s ease;
@@ -157,27 +147,34 @@ html{
 
 .content h3 {
     font-size: 120px;
-    position:absolute;
+    position: absolute;
     bottom: 60%;
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
-    font-family: 'VT323', sans-serif;
-    
+    font-family: 'Birch Leaf', sans-serif;
 }
 
+.content ha {
+    font-size: 24px;
+    position: absolute;
+    bottom: -2%;
+    left: 35%;
+    color: #ffffff;
+    text-shadow: 0 0 20px #ff6161;
+    font-family: 'Birch Leaf', sans-serif;
+}
 
 .content p {
     font-size: 16px;
     margin: 260px 0 15px;
     display: flex;
     justify-content: center;
-
 }
 
 .content .btn {
     position: absolute;
-    right: 10%; 
+    right: 10%;
     bottom: 27%;
     display: inline-block;
     padding: 5px 28px;
@@ -192,14 +189,10 @@ html{
     transition: .5s;
 }
 
-
-
 .content .btn:hover {
     background: transparent;
     color: #fff;
-
 }
-
 
 .slide .right-info {
     position: absolute;
@@ -217,7 +210,6 @@ html{
     transform: translateX(0);
     z-index: 1;
     transition: .5s ease;
-    
 }
 
 .right-info h1 {
@@ -254,17 +246,16 @@ html{
     margin: 150px;
 }
 
-
-.content .specific-image{
-    width: 80px; 
+.content .specific-image {
+    width: 80px;
     height: 80px;
     position: absolute;
     justify-content: center;
     bottom: -19%;
 }
 
-.content .specific-image1{
-    width: 80px; 
+.content .specific-image1 {
+    width: 80px;
     height: 80px;
     position: absolute;
     justify-content: center;
@@ -272,9 +263,8 @@ html{
     right: 55%;
 }
 
-
-.content .specific-image2{
-    width: 350px; 
+.content .specific-image2 {
+    width: 350px;
     height: 350px;
     position: absolute;
     justify-content: center;
@@ -282,8 +272,8 @@ html{
     right: -60%;
 }
 
-.content .specific-image3{
-    width: 450px; 
+.content .specific-image3 {
+    width: 450px;
     height: 450px;
     position: absolute;
     justify-content: center;
@@ -291,8 +281,8 @@ html{
     right: 40%;
 }
 
-.content .specific-image4{
-    width: 500px; 
+.content .specific-image4 {
+    width: 500px;
     height: 500px;
     position: absolute;
     justify-content: center;
@@ -300,25 +290,8 @@ html{
     right: -80%;
 }
 
-.content .specific-image5 {
-    width: 25vw;
-    height: 15vw;
-    position: absolute;
-    justify-content: center;
-    bottom: 5vh;
-    right: -5vw;
-}
-
 #demo1 {
     position: absolute;
     bottom: -100%;
-    left: 75%; 
-    transform: translate(-50%, -50%);
-}
-
-#demo2 {
-    position: absolute;
-    bottom: -180%;
-    left: 75%; 
-    transform: translate(-50%, -50%);
-}
+    left: 75%;
+    transform: translate(-50%, -50
