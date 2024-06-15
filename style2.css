@@ -384,4 +384,21 @@ html{
     right: 90%;
 }
 
+.content .specific-imagesor{
+    width: 750px; 
+    height: 750px;
+    position: absolute;
+    justify-content: center;
+    bottom: -60%;
+    right: 50%;
+}
+
+.content .specific-imagesli{
+    width: 750px; 
+    height: 750px;
+    position: absolute;
+    justify-content: center;
+    bottom: -60%;
+    right: 30%;
+}
 
