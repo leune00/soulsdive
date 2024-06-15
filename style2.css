@@ -152,7 +152,7 @@ html{
 .content h3 {
     font-size: 60px;
     position:absolute;
-    bottom: 90%;
+    bottom: 70%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif;
@@ -241,7 +241,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 50%;
+    bottom: 53%;
     right: -5%;
 }
 
@@ -250,7 +250,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 40%;
+    bottom: 38%;
     right: -5%;
 }
 
@@ -259,7 +259,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 30%;
+    bottom: 23%;
     right: -5%;
 }
 
@@ -268,7 +268,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 20%;
+    bottom: 8%;
     right: -5%;
 }
 
@@ -277,7 +277,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 10%;
+    bottom: -7%;
     right: -5%;
 }
 
@@ -371,7 +371,7 @@ html{
     height: 250px;
     position: absolute;
     justify-content: center;
-    bottom: 160%;
+    bottom: -20%;
     right: 90%;
 }
 
