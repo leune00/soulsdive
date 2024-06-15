@@ -51,8 +51,7 @@ html {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 1rem;
-    left: 2rem;
+   margin: 0 auto 0 5rem;
 }
 
 .social-media a {
@@ -161,13 +160,14 @@ html {
     color: #460000;
     text-shadow: 0 0 2rem #ff6161;
     font-family: 'VT323', monospace;
-    margin-bottom: 2rem;
+    bottom: 55vh;
 }
 
 .content p {
     font-size: 2vw;
-    bottom: 6rem;
-    margin-bottom: 2rem;
+    margin: 26vh 0 2.5vh;
+    display: flex;
+    justify-content: center;
     color: #fff; /* Change text color to white */
 }
 
