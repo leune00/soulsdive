@@ -48,10 +48,8 @@ html {
 
 /* Styles pour les réseaux sociaux */
 .social-media {
-    display: flex;
-    align-items: center;
+    margin: 0 auto 0 5rem;
     position: absolute;
-   margin: 0 auto 0 5rem;
 }
 
 .social-media a {
@@ -65,14 +63,30 @@ html {
     text-decoration: none;
     margin-right: 1rem;
     transition: .5s;
+    position: absolute;
+}
+
+.social-media a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1;
+    border-radius: 6px;
 }
 
 .social-media a i {
     font-size: 2rem;
     color: #fff;
+    transition: .5s;
+    position: relative;
+    z-index: 2;
 }
 
-.social-media a:hover {
+.social-media a:hover::after {
     background: rgba(0, 128, 0, 0.7);
 }
 
@@ -81,7 +95,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex: 1;
+    margin-right: 5rem;
 }
 
 .navbar a {
@@ -99,68 +113,57 @@ html {
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.slide {
+.slider .slide {
     position: absolute;
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.5s;
-    opacity: 0;
 }
 
 .slide img {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 135%;
+    height: 135%;
+    opacity: 0.79;
     object-fit: cover;
-    opacity: 0.8;
-    z-index: -1;
+    pointer-events: none;
+    opacity: 0;
 }
 
-.slide.active {
+.slide.active img {
     opacity: 1;
 }
 
-.slide .content, .slide .right-info {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
-}
-
 .slide .content {
-    left: 10%;
-    right: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: 0s;
+    align-items: center;
 }
 
-.slide .right-info {
-    right: 10%;
-    left: 10%;
+.slide.active .content {
+    position: absolute;
+    bottom: 30vh;
+    left: 12vw;
+    color: #fff;
+    transform: translateX(0);
+    z-index: 1;
+    transition: .5s ease;
+    align-items: center;
 }
 
 .content h3 {
-    font-size: 8vw; /* Increase font size */
+    font-size: 16vw;
+    position: absolute;
+    bottom: 55vh;
+    left: 5vw;
     color: #460000;
     text-shadow: 0 0 2rem #ff6161;
-    font-family: 'VT323', monospace;
-    bottom: 55vh;
+    font-family: 'VT323', sans-serif;
 }
 
 .content p {
@@ -168,12 +171,14 @@ html {
     margin: 26vh 0 2.5vh;
     display: flex;
     justify-content: center;
-    color: #fff; /* Change text color to white */
 }
 
 .content .btn {
+    position: absolute;
+    right: 10vw;
+    bottom: 37vh;
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2.8rem;
     background: #fff;
     border: 0.2rem solid #fff;
     border-radius: 0.8rem;
@@ -183,7 +188,6 @@ html {
     text-decoration: none;
     font-weight: 600;
     transition: .5s;
-    margin-top: 3rem; /* Add margin to space out from other text */
 }
 
 .content .btn:hover {
@@ -191,10 +195,28 @@ html {
     color: #fff;
 }
 
+.slide .right-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0s;
+}
+
+.slide.active .right-info {
+    transform: translateX(0);
+    z-index: 1;
+    transition: .5s ease;
+}
+
 .right-info h1 {
-    font-size: 6vw;
+    font-size: 18vw;
     color: #c92323;
-    margin-bottom: 2rem;
+    margin: 3vh;
     text-shadow: 
         0 0.1rem 0 #ccc,
         0 0.2rem 0 #c9c9c9,
@@ -210,32 +232,34 @@ html {
         0 2rem 2rem rgba(0, 0, 0, .15);
 }
 
+.slide:nth-child(1) .right-info h1, 
+.slide:nth-child(4) .right-info h1 {
+    margin-right: -1vw;
+}
+
 .right-info h3 {
+    position: absolute;
     font-size: 2vw;
     color: #f96b6b;
     text-shadow: 0 0 1rem rgba(0, 0, 0, .5);
-    margin-top: 2rem;
-}
-
-.content .specific-image, 
-.content .specific-image1, 
-.content .specific-image2, 
-.content .specific-image3, 
-.content .specific-image4, 
-.content .specific-image5 {
-    position: absolute;
+    transform: translateY(35vh);
+    margin-left: 1.3vw;
+    margin: 15vh;
 }
 
 .content .specific-image {
     width: 8vw;
     height: 8vw;
-    bottom: -19vh;
+    position: absolute;
     justify-content: center;
+    bottom: -19vh;
 }
 
 .content .specific-image1 {
     width: 8vw;
     height: 8vw;
+    position: absolute;
+    justify-content: center;
     bottom: 35vh;
     right: 59vw;
 }
@@ -243,6 +267,8 @@ html {
 .content .specific-image2 {
     width: 35vw;
     height: 35vw;
+    position: absolute;
+    justify-content: center;
     bottom: 50vh;
     right: -60vw;
 }
@@ -250,6 +276,8 @@ html {
 .content .specific-image3 {
     width: 45vw;
     height: 45vw;
+    position: absolute;
+    justify-content: center;
     bottom: -48vh;
     right: 40vw;
 }
@@ -257,6 +285,8 @@ html {
 .content .specific-image4 {
     width: 50vw;
     height: 50vw;
+    position: absolute;
+    justify-content: center;
     bottom: -78vh;
     right: -80vw;
 }
@@ -264,24 +294,24 @@ html {
 .content .specific-image5 {
     width: 25vw;
     height: 15vw;
+    position: absolute;
+    justify-content: center;
     bottom: 5vh;
     right: -5vw;
 }
 
-#demo1, #demo2 {
+#demo1 {
     position: absolute;
-    font-size: 1vw; /* Adjust font size for demos */
+    bottom: -30vh;
+    left: 45vw;
+    transform: translate(-50%, -50);
+    font-size: 4vw;
     color: #fff;
 }
 
-#demo1 {
-    bottom: -30vh; /* Place demo 1 at the bottom */
-    left: 45vw;
-    transform: translate(-50%, -50%);
-}
-
 #demo2 {
-    bottom: -100vh; /* Place demo 2 at the bottom */
+    position: absolute;
+    bottom: -100vh;
     left: 35vw;
     transform: translate(-50%, -50%);
-}
+    font-size: 2.
