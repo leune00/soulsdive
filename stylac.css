@@ -154,9 +154,9 @@ html {
 }
 
 .content h3 {
-    font-size: 120px;
+    font-size: 160px;
     position: absolute;
-    bottom: 50%;
+    bottom: 65%;
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
@@ -299,8 +299,8 @@ html {
 }
 
 .content .specific-image5 {
-    width: 25vw;
-    height: 15vw;
+    width: 15vw;
+    height: 5vw;
     position: absolute;
     justify-content: center;
     bottom: 5vh;
