@@ -308,12 +308,12 @@ html{
 
 
 .content .specific-image{
-    width: 100px; 
-    height: 100px;
+    width: 300px; 
+    height: 300px;
     position: absolute;
     justify-content: center;
     bottom: -19%;
-    right : 15%;
+    right : 45%;
 }
 
 .content .specific-image2{
