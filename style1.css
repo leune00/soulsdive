@@ -170,7 +170,7 @@ html{
 
  .content .btn {
     position: absolute; 
-    bottom: 0%;
+    bottom: 10%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -223,7 +223,7 @@ html{
 
 .content .btn4 {
     position: absolute;
-    bottom: -60%;
+    bottom: -70%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -312,8 +312,8 @@ html{
     height: 300px;
     position: absolute;
     justify-content: center;
-    bottom: -19%;
-    right : 45%;
+    bottom: -39%;
+    right : 30%;
 }
 
 .content .specific-image2{
