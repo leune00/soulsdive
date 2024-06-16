@@ -164,12 +164,13 @@ html{
     margin: 150px 0 15px;
     display: flex;
     justify-content: center;
+    margin-botton :10px;
 
 }
 
 .content .btn {
     position: absolute;
-    right: 3%; 
+    right: -3%; 
     bottom: -15%;
     display: inline-block;
     padding: 5px 28px;
@@ -182,11 +183,12 @@ html{
     text-decoration: none;
     font-weight: 600;
     transition: .5s;
+    justify-content: center;
 }
 
 .content .btn2 {
     position: absolute;
-    right: 5%; 
+    right: -5%; 
     bottom: -45%;
     display: inline-block;
     padding: 5px 28px;
@@ -199,6 +201,7 @@ html{
     text-decoration: none;
     font-weight: 600;
     transition: .5s;
+    justify-content: center;
 
 }
 
@@ -277,6 +280,7 @@ html{
     position: absolute;
     justify-content: center;
     bottom: -19%;
+    right : -15%;
 }
 
 .content .specific-image1{
@@ -285,6 +289,7 @@ html{
     position: absolute;
     justify-content: center;
     bottom: -49%;
+    right : -15%;
 }
 
 
