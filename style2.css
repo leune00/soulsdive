@@ -241,7 +241,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 55%;
+    bottom: 30%;
     right: -5%;
 }
 
@@ -250,7 +250,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 35%;
+    bottom: 10%;
     right: -5%;
 }
 
@@ -259,7 +259,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 15%;
+    bottom: 0%;
     right: -5%;
 }
 
@@ -268,7 +268,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -5%;
+    bottom: -20%;
     right: -5%;
 }
 
@@ -277,7 +277,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -25%;
+    bottom: -40%;
     right: -5%;
 }
 
@@ -367,11 +367,11 @@ html{
 
 
 .content .specific-imagetu{
-    width: 250px; 
-    height: 250px;
+    width: 150px; 
+    height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -90%;
+    bottom: -120%;
 }
 
 .content .specific-imagecara{
