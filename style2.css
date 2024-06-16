@@ -379,7 +379,7 @@ html{
     height: 250px;
     position: absolute;
     justify-content: center;
-    bottom: -60%;
+    bottom: 60%;
     right: 90%;
 }
 
@@ -389,7 +389,7 @@ html{
     position: absolute;
     justify-content: center;
     bottom: -60%;
-    right: 50%;
+    right: 30%;
 }
 
 .content .specific-imagesli{
@@ -397,7 +397,7 @@ html{
     height: 350px;
     position: absolute;
     justify-content: center;
-    bottom: -60%;
+    bottom: 0%;
     right: 30%;
 }
 
@@ -406,7 +406,7 @@ html{
     height: 350px;
     position: absolute;
     justify-content: center;
-    bottom: -60%;
+    bottom: 0%;
     right: 10%;
 }
 
