@@ -241,7 +241,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 30%;
+    bottom: 50%;
     right: -5%;
 }
 
@@ -250,7 +250,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 10%;
+    bottom: 30%;
     right: -5%;
 }
 
@@ -277,7 +277,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -40%;
+    bottom: -50%;
     right: -5%;
 }
 
@@ -367,25 +367,25 @@ html{
 
 
 .content .specific-imagetu{
-    width: 150px; 
-    height: 150px;
+    width: 550px; 
+    height: 450px;
     position: absolute;
     justify-content: center;
-    bottom: -120%;
+    bottom: -160%;
 }
 
 .content .specific-imagecara{
-    width: 250px; 
-    height: 250px;
+    width: 100px; 
+    height: 100px;
     position: absolute;
     justify-content: center;
-    bottom: 60%;
+    bottom: 30%;
     right: 90%;
 }
 
 .content .specific-imagesor{
-    width: 350px; 
-    height: 350px;
+    width: 100px; 
+    height: 100px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
@@ -393,8 +393,8 @@ html{
 }
 
 .content .specific-imagesli{
-    width: 350px; 
-    height: 350px;
+    width: 50px; 
+    height: 50px;
     position: absolute;
     justify-content: center;
     bottom: 0%;
@@ -402,11 +402,11 @@ html{
 }
 
 .content .specific-imagesbush{
-    width: 350px; 
-    height: 350px;
+    width: 50px; 
+    height: 50px;
     position: absolute;
     justify-content: center;
     bottom: 0%;
-    right: 10%;
+    right: -10%;
 }
 
