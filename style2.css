@@ -267,7 +267,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -90%;
+    bottom: -95%;
     right: -5%;
 }
 
@@ -276,7 +276,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -120%;
+    bottom: -130%;
     right: -5%;
 }
 
@@ -363,7 +363,7 @@ html{
     position: absolute;
     justify-content: center;
     bottom: -200%;
-    right : 0%; 
+    right : -2%; 
 }
 
 .content .specific-imagecara{
