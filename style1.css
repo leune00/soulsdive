@@ -167,7 +167,7 @@ html{
 
 }
 
- .btn {
+ .content .btn {
             position: absolute;
             display: inline-block;
             padding: 5px 28px;
