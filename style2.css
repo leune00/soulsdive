@@ -362,8 +362,8 @@ html{
     height: 550px;
     position: absolute;
     justify-content: center;
-    bottom: -200%;
-    right : -2%; 
+    bottom: -300%;
+    right : 2%; 
 }
 
 .content .specific-imagecara{
