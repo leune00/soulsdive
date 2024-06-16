@@ -168,22 +168,22 @@ html{
 }
 
  .content .btn {
-            position: absolute;
-            display: inline-block;
-            padding: 5px 28px;
-            background: #fff;
-            border: 2px solid #fff;
-            border-radius: 6px;
-            box-shadow: 0 0 10px #fff;
-            font-size: 16px;
-            color: #444;
-            text-decoration: none;
-            font-weight: 600;
-            transition: .5s;
-            justify-content: center;
-            right: -3%; 
-            bottom: -15%;
-        }
+    position: absolute;
+    right: -3%; 
+    bottom: -15%;
+    display: inline-block;
+    padding: 5px 28px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #fff;
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    justify-content: center;
+}
 
 .content .btn2 {
     position: absolute;
