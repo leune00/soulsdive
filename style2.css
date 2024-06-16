@@ -240,7 +240,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 0%;
+    bottom: 10%;
     right: -5%;
 }
 
@@ -249,7 +249,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -30%;
+    bottom: -15%;
     right: -5%;
 }
 
@@ -258,7 +258,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -60%;
+    bottom: -50%;
     right: -5%;
 }
 
@@ -267,7 +267,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -95%;
+    bottom: -75%;
     right: -5%;
 }
 
@@ -276,7 +276,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -130%;
+    bottom: -90%;
     right: -5%;
 }
 
@@ -362,7 +362,7 @@ html{
     height: 550px;
     position: absolute;
     justify-content: center;
-    bottom: -330%;
+    bottom: -310%;
     right: 2%;
 }
 
