@@ -205,6 +205,24 @@ html{
 
 }
 
+.content .btn3 {
+    position: absolute;
+    right: -5%; 
+    bottom: -75%;
+    display: inline-block;
+    padding: 5px 28px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #fff;
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    justify-content: center;
+
+}
 
 
 .content .btn:hover {
@@ -289,6 +307,14 @@ html{
     position: absolute;
     justify-content: center;
     bottom: -49%;
+    right : -15%;
+}
+.content .specific-image11{
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+    justify-content: center;
+    bottom: -79%;
     right : -15%;
 }
 
