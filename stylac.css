@@ -22,7 +22,6 @@ html {
     top: 0;
     left: 0;
     width: 100%; /* Occupe toute la largeur de la page */
-    weight : 50%;
     padding: 1rem 5%; /* Ajustez selon votre préférence */
     display: flex;
     align-items: center;
@@ -108,7 +107,7 @@ html {
 /* Styles pour la section de la bannière */
 .banner {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: 100vh;
     overflow-x: hidden;
 }
