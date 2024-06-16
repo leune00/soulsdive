@@ -42,27 +42,50 @@ html{
     transition: background-color 0.3s, color 0.3s;
 }
 
+
 /* Styles pour les réseaux sociaux */
 .social-media {
     margin: 0 auto 0 50px;
     position: relative; /* Assure que les éléments positionnés à l'intérieur sont positionnés relativement */
 }
 
-.social-media h3{
-    font-size: 50px;
-    position:absolute;
-    bottom: 60%;
-    left: 10%;
-    color : #fff;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    font-family: 'VT323', sans-serif;
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 128, 0, 0.5); /* Couleur verte semi-transparente */
+    border-radius: 6px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: .5s;
+    position: relative; /* Permet de positionner le pseudo-élément */
 }
 
+.social-media a::after {
+    content: ''; /* Contenu vide pour le pseudo-élément */
+    position: absolute; /* Position absolue par rapport au parent */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent; /* Couleur de fond transparente */
+    z-index: 1; /* Place au-dessus de l'icône */
+    border-radius: 6px; /* Même bord arrondi que l'icône */
+}
+
+.social-media a i {
+    font-size: 20px;
+    color: #fff;
+    transition: .5s;
+    position: relative; /* Assure que l'icône est positionnée par rapport au parent */
+    z-index: 2; /* Place au-dessus du pseudo-élément */
+}
 
 .social-media a:hover::after {
     background: rgba(0, 128, 0, 0.7); /* Superposition plus foncée lors du survol */
 }
-
 
 
 .navbar a {
@@ -129,12 +152,12 @@ html{
 .content h3 {
     font-size: 60px;
     position:absolute;
-    bottom: 70%;
+    bottom: 86%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif;
-    
 }
+
 .content p {
     font-size: 16px;
     bottom : 55%;
