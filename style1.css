@@ -224,6 +224,25 @@ html{
 
 }
 
+.content .btn4 {
+    position: absolute;
+    right: -5%; 
+    bottom: -105%;
+    display: inline-block;
+    padding: 5px 28px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #fff;
+    font-size: 16px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    justify-content: center;
+
+}
+
 
 .content .btn:hover {
     background: transparent;
@@ -317,7 +336,14 @@ html{
     bottom: -79%;
     right : -15%;
 }
-
+.content .specific-image12{
+    width: 80px; 
+    height: 80px;
+    position: absolute;
+    justify-content: center;
+    bottom: -109%;
+    right : -15%;
+}
 
 .content .specific-image2{
     width: 250px; 
