@@ -170,7 +170,7 @@ html{
 
  .content .btn {
     position: absolute; 
-    bottom: -15%;
+    bottom: 15%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -187,7 +187,7 @@ html{
 
 .content .btn2 {
     position: absolute;
-    bottom: -45%;
+    bottom: -15%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -205,7 +205,7 @@ html{
 
 .content .btn3 {
     position: absolute;
-    bottom: -75%;
+    bottom: -45%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -223,7 +223,7 @@ html{
 
 .content .btn4 {
     position: absolute;
-    bottom: -105%;
+    bottom: -75%;
     display: inline-block;
     padding: 5px 28px;
     background: #fff;
@@ -308,37 +308,12 @@ html{
 
 
 .content .specific-image{
-    width: 80px; 
-    height: 80px;
+    width: 100px; 
+    height: 100px;
     position: absolute;
     justify-content: center;
     bottom: -19%;
-    right : -15%;
-}
-
-.content .specific-image1{
-    width: 80px; 
-    height: 80px;
-    position: absolute;
-    justify-content: center;
-    bottom: -49%;
-    right : -15%;
-}
-.content .specific-image11{
-    width: 80px; 
-    height: 80px;
-    position: absolute;
-    justify-content: center;
-    bottom: -79%;
-    right : -15%;
-}
-.content .specific-image12{
-    width: 80px; 
-    height: 80px;
-    position: absolute;
-    justify-content: center;
-    bottom: -109%;
-    right : -15%;
+    right : 15%;
 }
 
 .content .specific-image2{
