@@ -367,11 +367,12 @@ html{
 
 
 .content .specific-imagetu{
-    width: 550px; 
+    width: 750px; 
     height: 450px;
     position: absolute;
     justify-content: center;
     bottom: -160%;
+    right : -5%; 
 }
 
 .content .specific-imagecara{
