@@ -156,7 +156,7 @@ html {
 .content h3 {
     font-size: 160px;
     position: absolute;
-    bottom: 65%;
+    bottom: 80%;
     left: 5%;
     color: #460000;
     text-shadow: 0 0 20px #ff6161;
@@ -298,14 +298,6 @@ html {
     right: -80%;
 }
 
-.content .specific-image5 {
-    width: 15vw;
-    height: 5vw;
-    position: absolute;
-    justify-content: center;
-    bottom: 5vh;
-    right: -5vw;
-}
 
 #demo1 {
     position: absolute;
