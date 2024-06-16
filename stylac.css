@@ -22,6 +22,7 @@ html {
     top: 0;
     left: 0;
     width: 100%; /* Occupe toute la largeur de la page */
+    weight : 50%;
     padding: 1rem 5%; /* Ajustez selon votre préférence */
     display: flex;
     align-items: center;
