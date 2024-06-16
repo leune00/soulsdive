@@ -150,9 +150,9 @@ html{
 }
 
 .content h3 {
-    font-size: 60px;
+    font-size: 40px;
     position:absolute;
-    bottom: 86%;
+    bottom: 78%;
     left: 10%;
     text-shadow: 0 0 10px rgba(0, 0, 0, 2);
     font-family: 'VT323', sans-serif;
@@ -160,31 +160,30 @@ html{
 
 .content p {
     font-size: 16px;
-    bottom : 55%;
+    bottom: 50%;
     margin: 150px 0 15px;
     display: flex;
     justify-content: center;
-    margin-botton :10px;
 
 }
 
-.content .btn {
-    position: absolute;
-    right: -3%; 
-    bottom: -15%;
-    display: inline-block;
-    padding: 5px 28px;
-    background: #fff;
-    border: 2px solid #fff;
-    border-radius: 6px;
-    box-shadow: 0 0 10px #fff;
-    font-size: 16px;
-    color: #444;
-    text-decoration: none;
-    font-weight: 600;
-    transition: .5s;
-    justify-content: center;
-}
+ .btn {
+            position: absolute;
+            display: inline-block;
+            padding: 5px 28px;
+            background: #fff;
+            border: 2px solid #fff;
+            border-radius: 6px;
+            box-shadow: 0 0 10px #fff;
+            font-size: 16px;
+            color: #444;
+            text-decoration: none;
+            font-weight: 600;
+            transition: .5s;
+            justify-content: center;
+            right: -3%; 
+            bottom: -15%;
+        }
 
 .content .btn2 {
     position: absolute;
