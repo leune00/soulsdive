@@ -241,7 +241,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 50%;
+    bottom: 0%;
     right: -5%;
 }
 
@@ -250,7 +250,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 30%;
+    bottom: -30%;
     right: -5%;
 }
 
@@ -259,7 +259,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: 0%;
+    bottom: -60%;
     right: -5%;
 }
 
@@ -268,7 +268,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -20%;
+    bottom: -90%;
     right: -5%;
 }
 
@@ -277,7 +277,7 @@ html{
     height: 150px;
     position: absolute;
     justify-content: center;
-    bottom: -50%;
+    bottom: -120%;
     right: -5%;
 }
 
@@ -329,14 +329,6 @@ html{
     right: 70%;
 }
 
-.content .specific-imagetrésor{
-    width: 250px; 
-    height: 250px;
-    position: absolute;
-    justify-content: center;
-    bottom: -40%;
-    right: 40%;
-}
 
 .content .specific-imaget{
     width: 250px; 
@@ -368,11 +360,11 @@ html{
 
 .content .specific-imagetu{
     width: 750px; 
-    height: 450px;
+    height: 550px;
     position: absolute;
     justify-content: center;
     bottom: -160%;
-    right : -5%; 
+    right : 50%; 
 }
 
 .content .specific-imagecara{
@@ -385,8 +377,8 @@ html{
 }
 
 .content .specific-imagesor{
-    width: 130px; 
-    height: 130px;
+    width: 160px; 
+    height: 160px;
     position: absolute;
     justify-content: center;
     bottom: -60%;
@@ -394,20 +386,20 @@ html{
 }
 
 .content .specific-imagesli{
-    width: 70px; 
-    height: 70px;
+    width: 90px; 
+    height: 90px;
     position: absolute;
     justify-content: center;
-    bottom: -50%;
-    right: 30%;
+    bottom: -30%;
+    right: 65%;
 }
 
 .content .specific-imagesbush{
-    width: 70px; 
-    height: 70px;
+    width: 90px; 
+    height: 90px;
     position: absolute;
     justify-content: center;
-    bottom: 0%;
-    right: -10%;
+    bottom: 20%;
+    right: 0%;
 }
 
